@@ -51,6 +51,28 @@ consideration and allocation all depend on the whole contract.
 </details>
 
 <details>
+<summary>👥 <strong>Contractors, RPA, and outsourcing firms</strong></summary>
+
+If reconciliation currently runs on people or bots moving data between systems,
+Meshly can take the repetitive part.
+
+**If you use contractors or a BPO.** Most of the work is finding the
+mismatches, not fixing them. Meshly does the finding and hands over a list with
+the evidence attached, so the hours go to judgement calls instead of to
+spreadsheet comparison. Every change keeps an audit trail, so the work is
+reviewable without taking it on trust.
+
+**If you run RPA.** Screen-scraping bots break when a vendor ships a UI change,
+and the failure is usually silent. Meshly works against APIs and file drops,
+and reports when a source stops matching what it used to send.
+
+**If you are an outsourcing firm.** Multi-tenant isolation means one deployment
+across many clients, with per-client boundaries enforced in code. Taking on a
+new client is a connector and a policy, not a new team.
+
+</details>
+
+<details>
 <summary>🧩 <strong>Open standards</strong></summary>
 
 Meshly uses open standards, not a proprietary representation:
