@@ -14,9 +14,11 @@ work, the pipelines, the reconciliation logic and the audit evidence, without
 hiring for any of it.
 
 Meshly understands your vendors' native file formats and APIs, and keeping that
-current is part of the service. When a vendor changes an export, that is our
-problem. Raw pulls are enriched with metadata and with Meshly's interpretation.
-Your business policies live in Meshly and are applied on every ingestion.
+current is part of the service. When a vendor changes an export or an API, that
+is our problem; when a vendor adds new capabilities, you get them without doing
+the work. Raw pulls are enriched with metadata and with Meshly's
+interpretation. Your business policies live in Meshly and are applied on every
+ingestion.
 
 **[Meshly.ai](https://meshly.ai) is a SOC 2 certified SaaS provider.** Built
 for the midmarket, light enough for small teams, and architected to scale to
