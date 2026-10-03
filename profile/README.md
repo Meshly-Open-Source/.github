@@ -1,6 +1,6 @@
 # [Meshly.AI](https://www.meshly.ai)
 
-**[Meshly.ai](https://meshly.ai) is a commercial SaaS service that provides the
+**[Meshly.AI](https://www.meshly.ai) is a commercial SaaS service that provides the
 automation and governance layer that lets customers connect to their systems of
 record — CRMs like HubSpot and Salesforce, accounting systems like Xero,
 QuickBooks and NetSuite, and whatever else you run — and then finds gaps**:
@@ -29,7 +29,7 @@ the work. Raw pulls are enriched with metadata and with Meshly's
 interpretation. Your business policies live in Meshly and are applied on every
 ingestion. Ad hoc and custom reporting runs over the result.
 
-**[Meshly.ai](https://meshly.ai) is a SOC 2 certified SaaS provider.** Built
+**[Meshly.AI](https://www.meshly.ai) is a SOC 2 certified SaaS provider.** Built
 for the midmarket, light enough for small teams, and architected to scale to
 very large use cases. Multi-tenant isolation, per-tenant rate limiting and
 tenant-scoped audit events are enforced in code.
@@ -122,8 +122,7 @@ schema, and linked provenance means it can follow a value back to its source
 instead of guessing. Access is through MCP, so the agent gets the same tenant
 boundary and the same audit trail as a person.
 
-For agent governance we build against **AIUC-1** and **ISO/IEC 42001**. These
-are frameworks we align our practices to. Our SOC 2 certification is separate.
+For agent governance we build against **AIUC-1** and **ISO/IEC 42001**.
 
 Your data stays portable and readable by tools that are not ours, including the
 provenance and audit records.
@@ -304,4 +303,4 @@ visible.
 
 ---
 
-[meshly.ai](https://meshly.ai) · `security@meshly.ai`
+[meshly.ai](https://www.meshly.ai) · `security@meshly.ai`
