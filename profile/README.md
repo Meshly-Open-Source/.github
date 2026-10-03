@@ -133,6 +133,14 @@ provenance and audit records.
 ## Meshly Customer Types & Use Cases
 
 <details>
+<summary>☁️ <strong>SaaS application and platform providers</strong></summary>
+
+Billing, CRM and ledger rarely agree on customer counts or
+revenue. Meshly finds where they diverge and shows which source to believe.
+
+</details>
+
+<details>
 <summary>🧍 <strong>Solopreneurs</strong></summary>
 
 You have got a bunch of systems, and you have to log in and check them every
@@ -171,34 +179,7 @@ Teaching Meshly to read one is our work, not yours.
 </details>
 
 <details>
-<summary>🚚 <strong>Supply chain and 3PL</strong></summary>
-
-You already have a provider, but your vendor likely has gaps you are filling in
-with manual clicking. Meshly can help fill those gaps, especially in
-conjunction with OpenAI, Claude and Google Gemini.
-
-</details>
-
-<details>
-<summary>☁️ <strong>SaaS providers</strong></summary>
-
-Billing, CRM and ledger rarely agree on customer counts or
-revenue. Meshly finds where they diverge and shows which source to believe.
-
-</details>
-
-<details>
-<summary>🧾 <strong>Audit and accounting firms</strong></summary>
-
-Testing and sampling across client systems,
-with the evidence attached to each finding. ASC 606 and similar treatments
-applied from your own policies. Per-client separation with one administration
-surface.
-
-</details>
-
-<details>
-<summary>👥 <strong>Contractors and BPO</strong></summary>
+<summary>👥 <strong>Firms using contractors and BPO</strong></summary>
 
 Most of the work is finding the mismatches, not fixing
 them. Meshly does the finding and hands over a list with the evidence attached,
@@ -223,6 +204,25 @@ Enterprise RBAC and multi-org support
 keep your sub-customers separate, with the boundaries enforced in code, under
 one administration surface. Taking on a new client is a connector and a policy,
 not a new team.
+
+</details>
+
+<details>
+<summary>🚚 <strong>Supply chain and 3PL</strong></summary>
+
+You already have a provider, but your vendor likely has gaps you are filling in
+with manual clicking. Meshly can help fill those gaps, especially in
+conjunction with OpenAI, Claude and Google Gemini.
+
+</details>
+
+<details>
+<summary>🧾 <strong>Audit and accounting firms</strong></summary>
+
+Testing and sampling across client systems,
+with the evidence attached to each finding. ASC 606 and similar treatments
+applied from your own policies. Per-client separation with one administration
+surface.
 
 </details>
 
