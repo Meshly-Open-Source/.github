@@ -62,16 +62,21 @@ consideration and allocation all depend on the whole contract.
 
 | | |
 |---|---|
-| **CRM** | Salesforce, HubSpot, Microsoft Dynamics |
+| **CRM** | Salesforce, HubSpot, Microsoft Dynamics 365 |
 | **Accounting / ERP** | Xero, QuickBooks, NetSuite |
 | **Banking** | Revolut |
 | **Payments** | Revolut; Stripe and others *coming soon* |
 | **Documents & e-signature** | DocuSign |
-| **Files** | PDF, CSV |
+| **Files** | PDF, CSV, and whatever shape your vendor invented |
+| **Warehouses** | Google BigQuery. Snowflake secure data sharing and Databricks Delta Sharing *coming soon* |
 | **MCP (agents)** | Claude Code, claude.ai, ChatGPT web UI. Single accounts through team and enterprise |
 | **Custom** | Internal databases, file drops, in-house APIs |
 
-Depth varies by connector. This list reflects what is built, not a roadmap.
+**You do not need a warehouse, or any of these systems.** If your data lives in
+spreadsheets and PDF exports, that is a supported setup, not a lesser one.
+
+Depth varies by connector. This list reflects what is built, not a roadmap;
+anything marked *coming soon* is not available yet.
 
 </details>
 
@@ -141,6 +146,30 @@ keep the trail that shows where they came from.
 
 Older systems, file-based exports, and month-end
 close done in spreadsheets. Meshly reads the files you already produce.
+
+</details>
+
+<details>
+<summary>🏭 <strong>Manufacturing</strong></summary>
+
+Parts, orders and shipments tracked across an ERP, a WMS and whatever the
+supplier sends. Meshly reconciles across them and flags what does not line up.
+
+**We love unique file formats.** Fixed-width extracts, EDI variants, a report
+someone built in 1998 that nobody dares change — these are normal inputs.
+Teaching Meshly to read one is our work, not yours.
+
+</details>
+
+<details>
+<summary>🔗 <strong>AI agent integration</strong></summary>
+
+Giving an agent access to your systems of record, with the guardrails that
+makes reasonable. Agents connect over MCP and get the same tenant boundary,
+the same permissions and the same audit trail as a person.
+
+Every answer carries its provenance, so an agent can show where a number came
+from rather than asserting it.
 
 </details>
 
