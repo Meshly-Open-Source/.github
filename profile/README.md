@@ -122,7 +122,9 @@ schema, and linked provenance means it can follow a value back to its source
 instead of guessing. Access is through MCP, so the agent gets the same tenant
 boundary and the same audit trail as a person.
 
-For agent governance we build against **AIUC-1** and **ISO/IEC 42001**.
+Built to support emerging standards such as
+**[AIUC-1](https://www.aiuc-1.com/)** and
+**[ISO 42001](https://www.iso.org/insights/iso-42001-explained)**.
 
 Your data stays portable and readable by tools that are not ours, including the
 provenance and audit records.
