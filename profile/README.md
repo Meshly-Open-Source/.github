@@ -7,8 +7,8 @@ field, an audit trail for every change, and reconciliation across sources that
 disagree.
 
 **For people *and* agents**, including
-[MCP](https://modelcontextprotocol.io) querying capabilities for
-[Claude](https://claude.ai) and [OpenAI](https://openai.com) models — so an
+MCP querying capabilities for
+Claude and OpenAI models — so an
 agent asking about your data gets the same provenance and the same tenant
 boundary a person does, rather than a convenient answer with no lineage.
 
@@ -22,6 +22,8 @@ for the midmarket, light enough for small teams, and architected to scale to
 very large use cases — multi-tenant isolation, per-tenant rate limiting and
 tenant-scoped audit events are properties the code enforces rather than
 policies a document asserts.
+
+## Meshly Capabilities
 
 <details>
 <summary>📊 <strong>Meshly Intelligence</strong> — find and reconcile what your systems disagree about</summary>
@@ -54,20 +56,19 @@ reading the contract, not on reading one field in it — performance
 obligations, variable consideration and allocation are judgements about the
 whole document.
 
-→ **[validate.meshly.ai](https://validate.meshly.ai)**
-
 </details>
 
 <details>
-<summary>🔌 <strong>Systems we connect to</strong></summary>
+<summary>🔌 <strong>Supported integrations</strong></summary>
 
 | | |
 |---|---|
-| **CRM** | [Salesforce](https://www.salesforce.com), [HubSpot](https://www.hubspot.com), [Microsoft Dynamics](https://www.microsoft.com/dynamics-365) |
-| **Accounting / ERP** | [Xero](https://www.xero.com), [QuickBooks](https://quickbooks.intuit.com), [NetSuite](https://www.netsuite.com) |
-| **Banking** | [Revolut](https://www.revolut.com) |
-| **Payments** | [Revolut](https://www.revolut.com); [Stripe](https://stripe.com) and others *coming soon* |
-| **Documents & e-signature** | [DocuSign](https://www.docusign.com) |
+| **CRM** | Salesforce, HubSpot, Microsoft Dynamics |
+| **Accounting / ERP** | Xero, QuickBooks, NetSuite |
+| **Banking** | Revolut |
+| **Payments** | Revolut; Stripe and others *coming soon* |
+| **Documents & e-signature** | DocuSign |
+| **Custom** | Bespoke sources — internal databases, flat-file drops, in-house APIs, anything with a contract we can read |
 
 Depth varies by connector and we would rather say so than imply parity. This
 list is derived from the connector modules that exist, not from a roadmap.
@@ -91,7 +92,7 @@ otherwise.**
 
 | Repository | What it is |
 |---|---|
-| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | A soft fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner) — ephemeral just-in-time self-hosted [GitHub Actions](https://docs.github.com/actions) runners on Google Cloud. Adds a framework-agnostic IP allowlist and self-hosting notes. |
+| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | A soft fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner) — ephemeral just-in-time self-hosted GitHub Actions runners on Google Cloud. Adds a framework-agnostic IP allowlist and self-hosting notes. |
 
 <details>
 <summary>🤖 <strong>How this code is written</strong> — AI authorship, stated plainly</summary>
@@ -145,8 +146,8 @@ calling us".
 > — **African proverb**
 
 Nearly everything we run is built on work someone else gave away —
-[Python](https://www.python.org), [Flask](https://flask.palletsprojects.com),
-[OpenTofu](https://opentofu.org), and a long tail besides. Publishing the
+Python, Flask,
+OpenTofu, and a long tail besides. Publishing the
 generally-useful parts is how that account gets settled. The honest reason it
 is a small list is that most of what we build is specific to us and would waste
 your time.
@@ -164,4 +165,4 @@ says otherwise.
 
 ---
 
-[meshly.ai](https://meshly.ai) · [validate.meshly.ai](https://validate.meshly.ai) · `security@meshly.ai`
+[meshly.ai](https://meshly.ai) · `security@meshly.ai`
