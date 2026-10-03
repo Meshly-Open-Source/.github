@@ -258,18 +258,6 @@ inspectable, and audit-ready.
 | [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | Meshly's enhanced fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner), used by Meshly's github.com tenant for remote runners on GCP. Ephemeral just-in-time self-hosted runners; adds a framework-agnostic IP allowlist and self-hosting notes. | Users of github.com with CI workflows who want to save money on GitHub runners, as a drop-in replacement |
 
 <details>
-<summary>🤖 <strong>How this code is written</strong></summary>
-
-Much of what we publish here is **written by AI coding agents under human
-review**. Our repositories say so, and so do any pull requests we send
-upstream.
-
-We state what was verified — tests, linters, mutation runs — separately from
-what was not.
-
-</details>
-
-<details>
 <summary>🔐 <strong>Reporting a security issue</strong></summary>
 
 **Please do not open a public issue for a vulnerability.**
