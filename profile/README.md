@@ -158,7 +158,7 @@ not a new team.
 
 ---
 
-# The open-source side
+# The open-source side — this GitHub organization
 
 Everything above is the commercial product. Everything below is what we
 publish, and the two are not the same thing.
