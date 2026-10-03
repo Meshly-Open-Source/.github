@@ -31,15 +31,14 @@ policies a document asserts.
 **Finds the mismatches, disconnects and problems that exist *between* your
 source systems, and helps you reconcile them.**
 
-Two systems that each look internally consistent will still disagree with each
-other: a contract value that does not match the invoice, a customer that exists
-in the CRM and not the ledger, a renewal date two systems have moved
-independently.
+Ever have data that disagreed between two systems? Have 998 customers in your
+accounting system but 1,000 in Salesforce as closed/won?
 
-Nobody owns the gap, because the gap is not inside either system. The team that
-owns the CRM sees clean CRM data. The team that owns the ledger sees a clean
-ledger. Intelligence is what looks at the space between them, tells you which
-source to believe, and shows the working.
+Gaps persist despite vendor improvements, because they are different systems
+from different vendors. Meshly can help reduce the load by healing incomplete
+or cleaning dirty data, using a combination of classical data science, machine
+learning, and frontier models from leading vendors like Anthropic, OpenAI and
+Google.
 
 </details>
 
