@@ -92,7 +92,7 @@ otherwise.**
 
 | Repository | What it is |
 |---|---|
-| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | A soft fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner) — ephemeral just-in-time self-hosted GitHub Actions runners on Google Cloud. Adds a framework-agnostic IP allowlist and self-hosting notes. |
+| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | Meshly's enhanced fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner), used by Meshly's github.com tenant for remote runners on GCP. Ephemeral just-in-time self-hosted runners; adds a framework-agnostic IP allowlist and self-hosting notes. |
 
 <details>
 <summary>🤖 <strong>How this code is written</strong> — AI authorship, stated plainly</summary>
