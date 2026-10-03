@@ -1,4 +1,4 @@
-# Meshly Open Source
+# [Meshly.AI](https://www.meshly.ai)
 
 **[Meshly.ai](https://meshly.ai) is a commercial SaaS service that provides the
 automation and governance layer that lets customers connect to their systems of
@@ -133,20 +133,11 @@ provenance and audit records.
 ## Meshly Customer Types & Use Cases
 
 <details>
-<summary>🧾 <strong>Audit and accounting firms</strong></summary>
+<summary>🧍 <strong>Solopreneurs</strong></summary>
 
-Testing and sampling across client systems,
-with the evidence attached to each finding. ASC 606 and similar treatments
-applied from your own policies. Per-client separation with one administration
-surface.
-
-</details>
-
-<details>
-<summary>☁️ <strong>SaaS providers</strong></summary>
-
-Billing, CRM and ledger rarely agree on customer counts or
-revenue. Meshly finds where they diverge and shows which source to believe.
+You have got a bunch of systems, and you have to log in and check them every
+day. Meshly can automate routine accounting tasks and create an early warning
+system — the equivalent of smoke detectors for your digital systems.
 
 </details>
 
@@ -168,15 +159,6 @@ close done in spreadsheets. Meshly reads the files you already produce.
 </details>
 
 <details>
-<summary>🧍 <strong>Solopreneurs</strong></summary>
-
-You have got a bunch of systems, and you have to log in and check them every
-day. Meshly can automate routine accounting tasks and create an early warning
-system — the equivalent of smoke detectors for your digital systems.
-
-</details>
-
-<details>
 <summary>🏭 <strong>Manufacturing</strong></summary>
 
 Parts, orders and shipments tracked across an ERP, a WMS and whatever the
@@ -189,14 +171,29 @@ Teaching Meshly to read one is our work, not yours.
 </details>
 
 <details>
-<summary>🔗 <strong>AI agent integration</strong></summary>
+<summary>🚚 <strong>Supply chain and 3PL</strong></summary>
 
-Giving an agent access to your systems of record, with the guardrails that
-makes reasonable. Agents connect over MCP and get the same tenant boundary,
-the same permissions and the same audit trail as a person.
+You already have a provider, but your vendor likely has gaps you are filling in
+with manual clicking. Meshly can help fill those gaps, especially in
+conjunction with OpenAI, Claude and Google Gemini.
 
-Every answer carries its provenance, so an agent can show where a number came
-from rather than asserting it.
+</details>
+
+<details>
+<summary>☁️ <strong>SaaS providers</strong></summary>
+
+Billing, CRM and ledger rarely agree on customer counts or
+revenue. Meshly finds where they diverge and shows which source to believe.
+
+</details>
+
+<details>
+<summary>🧾 <strong>Audit and accounting firms</strong></summary>
+
+Testing and sampling across client systems,
+with the evidence attached to each finding. ASC 606 and similar treatments
+applied from your own policies. Per-client separation with one administration
+surface.
 
 </details>
 
@@ -229,13 +226,32 @@ not a new team.
 
 </details>
 
+<details>
+<summary>🔗 <strong>AI agent integration</strong></summary>
+
+Giving an agent access to your systems of record, with the guardrails that
+makes reasonable. Agents connect over MCP and get the same tenant boundary,
+the same permissions and the same audit trail as a person.
+
+Every answer carries its provenance, so an agent can show where a number came
+from rather than asserting it.
+
+</details>
+
+<details>
+<summary>🌍 <strong>Everyone</strong></summary>
+
+Meshly makes AI safer to consume for your business-critical systems:
+inspectable, and audit-ready.
+
+</details>
 ---
 
 # Meshly Labs Open Source
 
-| Repository | What it is |
-|---|---|
-| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | Meshly's enhanced fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner), used by Meshly's github.com tenant for remote runners on GCP. Ephemeral just-in-time self-hosted runners; adds a framework-agnostic IP allowlist and self-hosting notes. |
+| Repository | What it is | Intended audience |
+|---|---|---|
+| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | Meshly's enhanced fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner), used by Meshly's github.com tenant for remote runners on GCP. Ephemeral just-in-time self-hosted runners; adds a framework-agnostic IP allowlist and self-hosting notes. | Users of github.com with CI workflows who want to save money on GitHub runners, as a drop-in replacement |
 
 <details>
 <summary>🤖 <strong>How this code is written</strong></summary>
