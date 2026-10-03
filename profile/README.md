@@ -1,10 +1,16 @@
 # Meshly Open Source
 
-**[Meshly.ai](https://meshly.ai) is a SaaS service providing an automation and
-governance layer over your systems of record.** Connect your CRM, accounting,
-banking and document systems; Meshly keeps them honest about each other —
-provenance for every field, an audit trail for every change, and reconciliation
-across sources that disagree.
+**[Meshly.ai](https://meshly.ai) is a commercial SaaS service that provides the
+automation and governance layer that lets customers connect to their systems of
+record** — and then holds those connections to account: provenance for every
+field, an audit trail for every change, and reconciliation across sources that
+disagree.
+
+**For people *and* agents**, including
+[MCP](https://modelcontextprotocol.io) querying capabilities for
+[Claude](https://claude.ai) and [OpenAI](https://openai.com) models — so an
+agent asking about your data gets the same provenance and the same tenant
+boundary a person does, rather than a convenient answer with no lineage.
 
 In practice you get **the benefits of a virtual data engineering team**: the
 integration work, the pipelines, the reconciliation logic and the audit
