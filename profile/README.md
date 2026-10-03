@@ -58,6 +58,23 @@ whole document.
 </details>
 
 <details>
+<summary>🧩 <strong>Open standards</strong> — your data stays describable without us</summary>
+
+Meshly builds on open standards rather than a proprietary representation:
+**JSON-LD** for linked, self-describing records, **CloudEvents** for the event
+envelope, **schema.org** and the **gist** upper ontology for shared vocabulary,
+and Open Knowledge Foundation conventions where they fit.
+
+The reason is not standards-compliance for its own sake. A governance layer
+asks you to route your systems of record through it, and that is only a
+reasonable thing to ask if what comes out the other side is still **yours** —
+describable, portable, and meaningful to a tool that is not ours. A proprietary
+representation would make the provenance and audit trail hostage to the vendor
+holding them, which is the opposite of the point.
+
+</details>
+
+<details>
 <summary>🔌 <strong>Supported integrations</strong></summary>
 
 | | |
@@ -68,6 +85,7 @@ whole document.
 | **Payments** | Revolut; Stripe and others *coming soon* |
 | **Documents & e-signature** | DocuSign |
 | **Files** | PDF, CSV — a file drop is a source like any other, and most reconciliations still start with one |
+| **MCP (agents)** | Claude Code, claude.ai, and the ChatGPT web UI — from a single account up to team and enterprise |
 | **Custom** | Bespoke sources — internal databases, flat-file drops, in-house APIs, anything with a contract we can read |
 
 Depth varies by connector and we would rather say so than imply parity. This
