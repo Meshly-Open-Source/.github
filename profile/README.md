@@ -2,9 +2,9 @@
 
 **[Meshly.ai](https://meshly.ai) is a commercial SaaS service that provides the
 automation and governance layer that lets customers connect to their systems of
-record** — and then holds those connections to account: provenance for every
-field, an audit trail for every change, and reconciliation across sources that
-disagree.
+record and then finds gaps**: provenance (deep linking when possible) for every
+field, an audit trail for every ingestion and change, and reconciliation across
+sources that disagree.
 
 **For people *and* agents**, including
 MCP querying capabilities for
