@@ -25,37 +25,6 @@ for the midmarket, light enough for small teams, and architected to scale to
 very large use cases. Multi-tenant isolation, per-tenant rate limiting and
 tenant-scoped audit events are enforced in code.
 
-## Meshly Customer Types & Use Cases
-
-**Audit and accounting firms.** Testing and sampling across client systems,
-with the evidence attached to each finding. ASC 606 and similar treatments
-applied from your own policies. Per-client separation with one administration
-surface.
-
-**SaaS providers.** Billing, CRM and ledger rarely agree on customer counts or
-revenue. Meshly finds where they diverge and shows which source to believe.
-
-**Startups and accelerator participants.** No data team required. Connect what
-you have, get numbers you can put in front of an investor or an auditor, and
-keep the trail that shows where they came from.
-
-**Traditional businesses.** Older systems, file-based exports, and month-end
-close done in spreadsheets. Meshly reads the files you already produce.
-
-**Contractors and BPO.** Most of the work is finding the mismatches, not fixing
-them. Meshly does the finding and hands over a list with the evidence attached,
-so the hours go to judgement calls instead of spreadsheet comparison. Every
-change keeps an audit trail.
-
-**RPA users.** Screen-scraping bots break when a vendor ships a UI change, and
-the failure is usually silent. Meshly works against APIs and file drops, and
-reports when a source stops matching what it used to send.
-
-**Outsourcing firms and RPA providers.** Enterprise RBAC and multi-org support
-keep your sub-customers separate, with the boundaries enforced in code, under
-one administration surface. Taking on a new client is a connector and a policy,
-not a new team.
-
 ## Meshly Capabilities
 
 <details>
@@ -118,6 +87,72 @@ provenance and audit records.
 | **Custom** | Internal databases, file drops, in-house APIs |
 
 Depth varies by connector. This list reflects what is built, not a roadmap.
+
+</details>
+
+## Meshly Customer Types & Use Cases
+
+<details>
+<summary>🧾 <strong>Audit and accounting firms</strong></summary>
+
+Testing and sampling across client systems,
+with the evidence attached to each finding. ASC 606 and similar treatments
+applied from your own policies. Per-client separation with one administration
+surface.
+
+</details>
+
+<details>
+<summary>☁️ <strong>SaaS providers</strong></summary>
+
+Billing, CRM and ledger rarely agree on customer counts or
+revenue. Meshly finds where they diverge and shows which source to believe.
+
+</details>
+
+<details>
+<summary>🚀 <strong>Startups and accelerator participants</strong></summary>
+
+No data team required. Connect what
+you have, get numbers you can put in front of an investor or an auditor, and
+keep the trail that shows where they came from.
+
+</details>
+
+<details>
+<summary>🏭 <strong>Traditional businesses</strong></summary>
+
+Older systems, file-based exports, and month-end
+close done in spreadsheets. Meshly reads the files you already produce.
+
+</details>
+
+<details>
+<summary>👥 <strong>Contractors and BPO</strong></summary>
+
+Most of the work is finding the mismatches, not fixing
+them. Meshly does the finding and hands over a list with the evidence attached,
+so the hours go to judgement calls instead of spreadsheet comparison. Every
+change keeps an audit trail.
+
+</details>
+
+<details>
+<summary>🤖 <strong>RPA users</strong></summary>
+
+Screen-scraping bots break when a vendor ships a UI change, and
+the failure is usually silent. Meshly works against APIs and file drops, and
+reports when a source stops matching what it used to send.
+
+</details>
+
+<details>
+<summary>🏢 <strong>Outsourcing firms and RPA providers</strong></summary>
+
+Enterprise RBAC and multi-org support
+keep your sub-customers separate, with the boundaries enforced in code, under
+one administration surface. Taking on a new client is a connector and a policy,
+not a new team.
 
 </details>
 
