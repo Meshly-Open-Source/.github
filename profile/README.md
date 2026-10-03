@@ -112,9 +112,9 @@ putting agents to work.
 Meshly uses open standards, not a proprietary representation:
 
 - **JSON-LD** for linked, self-describing records
-- **[CloudEvents](https://cloudevents.io/)** for the event envelope <sup>[1]</sup> <sup>[2]</sup>
-- **schema.org** and the **gist** upper ontology for shared vocabulary
-- Open Knowledge Foundation conventions where they fit
+- **[CloudEvents](https://cloudevents.io/)** for the event envelope <sup>[[1]](https://docs.cloud.google.com/eventarc/docs/cloudevents)</sup> <sup>[[2]](https://www.google.com/search?q=consumers+of+cloudevents+salesforce)</sup>
+- **[schema.org](https://schema.org/)** and the **[gist](https://www.semanticarts.com/gist/)** upper ontology for shared vocabulary, based on vendor-neutral open standards
+- **[Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format)** where it fits
 
 **This is what makes Meshly easy for your AI to consume** — whatever you are
 running. Self-describing records mean an agent does not have to be taught your
