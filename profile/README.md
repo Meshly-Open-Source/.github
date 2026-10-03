@@ -75,9 +75,15 @@ consideration and allocation all depend on the whole contract.
 **You do not need a warehouse, or any of these systems.** If your data lives in
 spreadsheets and PDF exports, that is a supported setup, not a lesser one.
 
-**If your system is not listed, we build the connector.** That is the job, not
-a favour. Items marked *on request* are not built yet — ask, and they get
-scheduled against a real customer rather than a roadmap.
+**If your system is not listed, we build the connector.** Meshly already
+supports REST APIs and webhooks, and is compatible with major streaming
+protocols as well as batch jobs. Our team can help you through configuration
+and permissions.
+
+The systems listed above are **self-service** — a few clicks, by someone on
+your team with the right permissions. Items marked *on request* are not built
+yet; ask, and they get scheduled against a real customer rather than a
+roadmap.
 
 Depth varies by connector. Everything not marked *on request* is built and in
 use today.
