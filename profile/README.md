@@ -145,21 +145,6 @@ calling us".
 > *"If you want to go fast, go alone. If you want to go far, go together."*
 > — **African proverb**
 
-Nearly everything we run is built on work someone else gave away —
-Python, Flask,
-OpenTofu, and a long tail besides. Publishing the
-generally-useful parts is how that account gets settled. The honest reason it
-is a small list is that most of what we build is specific to us and would waste
-your time.
-
-Where we fork another project we **track** it rather than diverge from it, and
-we send fixes **upstream** rather than keeping them: a fix landed upstream
-reaches everyone running that software, and a fix kept in a fork reaches only
-us.
-
-Everything we publish is
-[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) unless a repository
-says otherwise.
 
 </details>
 
