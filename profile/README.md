@@ -111,7 +111,7 @@ putting agents to work.
 
 Meshly uses open standards, not a proprietary representation:
 
-- **JSON-LD** for linked, self-describing records
+- **[JSON-LD](https://json-ld.org/)** for linked, self-describing records
 - **[CloudEvents](https://cloudevents.io/)** for the event envelope <sup>[[1]](https://docs.cloud.google.com/eventarc/docs/cloudevents)</sup> <sup>[[2]](https://www.google.com/search?q=consumers+of+cloudevents+salesforce)</sup>
 - **[schema.org](https://schema.org/)** and the **[gist](https://www.semanticarts.com/gist/)** upper ontology for shared vocabulary, based on vendor-neutral open standards
 - **[Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format)** where it fits
