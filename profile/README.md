@@ -103,8 +103,8 @@ use today.
 <summary>🧩 <strong>Open standards, and agent access</strong></summary>
 
 **You do not need any of this to use Meshly.** There is a web UI, and most
-customers work entirely in it. Connect a source, set a policy, read the
-results.
+customers work entirely in it, or with Claude.ai or ChatGPT.com. Connect a
+source, read the results, generate reports, fix problem data.
 
 This section is for power users, firms with a development team, and anyone
 putting agents to work.
