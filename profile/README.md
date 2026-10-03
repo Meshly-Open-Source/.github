@@ -25,7 +25,7 @@ for the midmarket, light enough for small teams, and architected to scale to
 very large use cases. Multi-tenant isolation, per-tenant rate limiting and
 tenant-scoped audit events are enforced in code.
 
-## Meshly customer types
+## Meshly Customer Types & Use Cases
 
 **Audit and accounting firms.** Testing and sampling across client systems,
 with the evidence attached to each finding. ASC 606 and similar treatments
