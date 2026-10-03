@@ -71,9 +71,10 @@ reviewable without taking it on trust.
 and the failure is usually silent. Meshly works against APIs and file drops,
 and reports when a source stops matching what it used to send.
 
-**If you are an outsourcing firm.** Multi-tenant isolation means one deployment
-across many clients, with per-client boundaries enforced in code. Taking on a
-new client is a connector and a policy, not a new team.
+**If you are an outsourcing firm or RPA provider.** Enterprise RBAC and
+multi-org support keep your sub-customers separate, with the boundaries
+enforced in code, under one administration surface. Taking on a new client is a
+connector and a policy, not a new team.
 
 </details>
 
