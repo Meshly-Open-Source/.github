@@ -69,7 +69,7 @@ are a product.
 
 | Repository | What it is |
 |---|---|
-| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | A [soft fork](https://github.com/Meshly-Open-Source/google-cloud-github-runner#how-soft-is-this-fork-honestly) of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner) — ephemeral just-in-time self-hosted [GitHub Actions](https://docs.github.com/actions) runners on Google Cloud. Adds a framework-agnostic IP allowlist and self-hosting notes. |
+| [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | A soft fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner) — ephemeral just-in-time self-hosted [GitHub Actions](https://docs.github.com/actions) runners on Google Cloud. Adds a framework-agnostic IP allowlist and self-hosting notes. |
 
 A deliberately small list. The things here share a shape: infrastructure we
 needed, built to be given away rather than to advertise. Expect tooling and
@@ -78,8 +78,7 @@ organisation does not pretend otherwise.**
 
 > **A note on how this code is written.** Much of what we publish here is
 > written by AI coding agents under human review, and our repositories
-> [say so plainly](https://github.com/Meshly-Open-Source/google-cloud-github-runner#%EF%B8%8F-ai-generated-code-disclosure)
-> in their READMEs. A maintainer or adopter deciding whether to trust or review
+> say so plainly in their READMEs. A maintainer or adopter deciding whether to trust or review
 > code is entitled to know how it was produced; finding out afterwards is worse
 > for everyone. Where we contribute upstream to someone else's project, the
 > pull request says it too.
