@@ -112,7 +112,7 @@ putting agents to work.
 Meshly uses open standards, not a proprietary representation:
 
 - **JSON-LD** for linked, self-describing records
-- **CloudEvents** for the event envelope
+- **[CloudEvents](https://cloudevents.io/)** for the event envelope <sup>[1]</sup> <sup>[2]</sup>
 - **schema.org** and the **gist** upper ontology for shared vocabulary
 - Open Knowledge Foundation conventions where they fit
 
@@ -122,12 +122,14 @@ schema, and linked provenance means it can follow a value back to its source
 instead of guessing. Access is through MCP, so the agent gets the same tenant
 boundary and the same audit trail as a person.
 
-For agent governance we are **targeting AIUC-1 and ISO/IEC 42001**. Those are
-targets, not current certifications. Our SOC 2 certification is separate and
-current.
+For agent governance we build against **AIUC-1** and **ISO/IEC 42001**. These
+are frameworks we align our practices to. Our SOC 2 certification is separate.
 
 Your data stays portable and readable by tools that are not ours, including the
 provenance and audit records.
+
+<sub>[1] [CloudEvents on Google Cloud Eventarc](https://docs.cloud.google.com/eventarc/docs/cloudevents) ·
+[2] [Who else consumes CloudEvents](https://www.google.com/search?q=consumers+of+cloudevents+salesforce)</sub>
 
 </details>
 
