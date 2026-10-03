@@ -2,9 +2,10 @@
 
 **[Meshly.ai](https://meshly.ai) is a commercial SaaS service that provides the
 automation and governance layer that lets customers connect to their systems of
-record and then finds gaps**: provenance (deep linking when possible) for every
-field, an audit trail for every ingestion and change, and reconciliation across
-sources that disagree.
+record — CRMs like HubSpot and Salesforce, accounting systems like Xero,
+QuickBooks and NetSuite, and whatever else you run — and then finds gaps**:
+provenance (deep linking when possible) for every field, an audit trail for
+every ingestion and change, and reconciliation across sources that disagree.
 
 **For people and agents**, including MCP querying for Claude and OpenAI
 models. Agents get the same provenance and tenant boundary as people.
