@@ -67,6 +67,7 @@ whole document.
 | **Banking** | Revolut |
 | **Payments** | Revolut; Stripe and others *coming soon* |
 | **Documents & e-signature** | DocuSign |
+| **Files** | PDF, CSV — a file drop is a source like any other, and most reconciliations still start with one |
 | **Custom** | Bespoke sources — internal databases, flat-file drops, in-house APIs, anything with a contract we can read |
 
 Depth varies by connector and we would rather say so than imply parity. This
