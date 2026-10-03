@@ -58,21 +58,6 @@ consideration and allocation all depend on the whole contract.
 </details>
 
 <details>
-<summary>🧩 <strong>Open standards</strong></summary>
-
-Meshly uses open standards, not a proprietary representation:
-
-- **JSON-LD** for linked, self-describing records
-- **CloudEvents** for the event envelope
-- **schema.org** and the **gist** upper ontology for shared vocabulary
-- Open Knowledge Foundation conventions where they fit
-
-Your data stays portable and readable by tools that are not ours, including the
-provenance and audit records.
-
-</details>
-
-<details>
 <summary>🔌 <strong>Supported integrations</strong></summary>
 
 | | |
@@ -87,6 +72,38 @@ provenance and audit records.
 | **Custom** | Internal databases, file drops, in-house APIs |
 
 Depth varies by connector. This list reflects what is built, not a roadmap.
+
+</details>
+
+<details>
+<summary>🧩 <strong>Open standards, and agent access</strong></summary>
+
+**You do not need any of this to use Meshly.** There is a web UI, and most
+customers work entirely in it. Connect a source, set a policy, read the
+results.
+
+This section is for power users, firms with a development team, and anyone
+putting agents to work.
+
+Meshly uses open standards, not a proprietary representation:
+
+- **JSON-LD** for linked, self-describing records
+- **CloudEvents** for the event envelope
+- **schema.org** and the **gist** upper ontology for shared vocabulary
+- Open Knowledge Foundation conventions where they fit
+
+**This is what makes Meshly easy for your AI to consume** — whatever you are
+running. Self-describing records mean an agent does not have to be taught your
+schema, and linked provenance means it can follow a value back to its source
+instead of guessing. Access is through MCP, so the agent gets the same tenant
+boundary and the same audit trail as a person.
+
+For agent governance we are **targeting AIUC-1 and ISO/IEC 42001**. Those are
+targets, not current certifications. Our SOC 2 certification is separate and
+current.
+
+Your data stays portable and readable by tools that are not ours, including the
+provenance and audit records.
 
 </details>
 
