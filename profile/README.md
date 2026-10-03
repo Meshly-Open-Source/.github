@@ -6,27 +6,22 @@ record and then finds gaps**: provenance (deep linking when possible) for every
 field, an audit trail for every ingestion and change, and reconciliation across
 sources that disagree.
 
-**For people *and* agents**, including
-MCP querying capabilities for
-Claude and OpenAI models — so an
-agent asking about your data gets the same provenance and the same tenant
-boundary a person does, rather than a convenient answer with no lineage.
+**For people and agents**, including MCP querying for Claude and OpenAI
+models. Agents get the same provenance and tenant boundary as people.
 
-In practice you get **the benefits of a virtual data engineering team**: the
-integration work, the pipelines, the reconciliation logic and the audit
-evidence, without hiring for any of it. The work that normally lands on whoever
-is least busy, done as a service.
+You get **the benefits of a virtual data engineering team**: the integration
+work, the pipelines, the reconciliation logic and the audit evidence, without
+hiring for any of it.
 
 **[Meshly.ai](https://meshly.ai) is a SOC 2 certified SaaS provider.** Built
 for the midmarket, light enough for small teams, and architected to scale to
-very large use cases — multi-tenant isolation, per-tenant rate limiting and
-tenant-scoped audit events are properties the code enforces rather than
-policies a document asserts.
+very large use cases. Multi-tenant isolation, per-tenant rate limiting and
+tenant-scoped audit events are enforced in code.
 
 ## Meshly Capabilities
 
 <details>
-<summary>📊 <strong>Meshly Intelligence</strong> — find and reconcile what your systems disagree about</summary>
+<summary>📊 <strong>Meshly Intelligence</strong></summary>
 
 **Finds the mismatches, disconnects and problems that exist *between* your
 source systems, and helps you reconcile them.**
@@ -43,34 +38,30 @@ Google.
 </details>
 
 <details>
-<summary>📄 <strong>Meshly Validate</strong> — your policies, applied to open documents</summary>
+<summary>📄 <strong>Meshly Validate</strong></summary>
 
 **Applies your policies to open documents — PDFs and the rest — for policy
 compliance, and extracts fields for validation and for feeding into other
 systems.**
 
-It handles complex treatments rather than only simple field-matching.
-**ASC 606 revenue-recognition** is the worked example: the answer depends on
-reading the contract, not on reading one field in it — performance
-obligations, variable consideration and allocation are judgements about the
-whole document.
+It handles complex treatments, not just field matching. **ASC 606
+revenue-recognition** is one example: performance obligations, variable
+consideration and allocation all depend on the whole contract.
 
 </details>
 
 <details>
-<summary>🧩 <strong>Open standards</strong> — your data stays describable without us</summary>
+<summary>🧩 <strong>Open standards</strong></summary>
 
-Meshly builds on open standards rather than a proprietary representation:
-**JSON-LD** for linked, self-describing records, **CloudEvents** for the event
-envelope, **schema.org** and the **gist** upper ontology for shared vocabulary,
-and Open Knowledge Foundation conventions where they fit.
+Meshly uses open standards, not a proprietary representation:
 
-The reason is not standards-compliance for its own sake. A governance layer
-asks you to route your systems of record through it, and that is only a
-reasonable thing to ask if what comes out the other side is still **yours** —
-describable, portable, and meaningful to a tool that is not ours. A proprietary
-representation would make the provenance and audit trail hostage to the vendor
-holding them, which is the opposite of the point.
+- **JSON-LD** for linked, self-describing records
+- **CloudEvents** for the event envelope
+- **schema.org** and the **gist** upper ontology for shared vocabulary
+- Open Knowledge Foundation conventions where they fit
+
+Your data stays portable and readable by tools that are not ours, including the
+provenance and audit records.
 
 </details>
 
@@ -84,12 +75,11 @@ holding them, which is the opposite of the point.
 | **Banking** | Revolut |
 | **Payments** | Revolut; Stripe and others *coming soon* |
 | **Documents & e-signature** | DocuSign |
-| **Files** | PDF, CSV — a file drop is a source like any other, and most reconciliations still start with one |
-| **MCP (agents)** | Claude Code, claude.ai, and the ChatGPT web UI — from a single account up to team and enterprise |
-| **Custom** | Bespoke sources — internal databases, flat-file drops, in-house APIs, anything with a contract we can read |
+| **Files** | PDF, CSV |
+| **MCP (agents)** | Claude Code, claude.ai, ChatGPT web UI. Single accounts through team and enterprise |
+| **Custom** | Internal databases, file drops, in-house APIs |
 
-Depth varies by connector and we would rather say so than imply parity. This
-list is derived from the connector modules that exist, not from a roadmap.
+Depth varies by connector. This list reflects what is built, not a roadmap.
 
 </details>
 
@@ -100,32 +90,24 @@ list is derived from the connector modules that exist, not from a roadmap.
 Everything above is the commercial product. Everything below is what we
 publish, and the two are not the same thing.
 
-This organisation holds the pieces that are **generally useful** — published
-because they are useful to other people, not because they are a product. A
-deliberately small list, sharing one shape: infrastructure we needed, built to
-be given away rather than to advertise.
+This organisation holds pieces that are generally useful to other people.
+It is a short list, and it is infrastructure we needed ourselves.
 
-**The product is not open source and this organisation does not pretend
-otherwise.**
+**The product is not open source.**
 
 | Repository | What it is |
 |---|---|
 | [**google-cloud-github-runner**](https://github.com/Meshly-Open-Source/google-cloud-github-runner) | Meshly's enhanced fork of [Cyclenerd/google-cloud-github-runner](https://github.com/Cyclenerd/google-cloud-github-runner), used by Meshly's github.com tenant for remote runners on GCP. Ephemeral just-in-time self-hosted runners; adds a framework-agnostic IP allowlist and self-hosting notes. |
 
 <details>
-<summary>🤖 <strong>How this code is written</strong> — AI authorship, stated plainly</summary>
+<summary>🤖 <strong>How this code is written</strong></summary>
 
 Much of what we publish here is **written by AI coding agents under human
-review**, and our repositories say so in their READMEs rather than leaving you
-to infer it from the commit style.
+review**. Our repositories say so, and so do any pull requests we send
+upstream.
 
-A maintainer or adopter deciding whether to trust or review code is entitled to
-know how it was produced; finding out afterwards is worse for everyone. Where
-we contribute upstream to someone else's project, the pull request says it too.
-
-We also try to state what was **verified** separately from what was merely
-written — a passing test suite, a clean linter, mutations that turn the suite
-red — and to keep an honest list of what was *not* checked.
+We state what was verified — tests, linters, mutation runs — separately from
+what was not.
 
 </details>
 
@@ -135,15 +117,12 @@ red — and to keep an honest list of what was *not* checked.
 **Please do not open a public issue for a vulnerability.**
 
 Use the `SECURITY.md` in the relevant repository, or email
-**`security@meshly.ai`**. Each repository's policy says which paths are ours
-and which belong to an upstream project, because a report filed in the wrong
-place looks tracked while nobody who can fix it is reading it.
+**`security@meshly.ai`**. Each policy says which paths are ours and which
+belong to an upstream project.
 
-Two bug classes we especially want, where our code is fail-closed: a **bypass**,
-and a **silent total denial** — anything that makes a control deny everything
-without that being evident. The second is reported far less and matters just as
-much, because "nothing is being accepted" looks identical to "nobody is
-calling us".
+For fail-closed code we want two things reported: a **bypass**, and a **silent
+total denial** where a control starts refusing everything without that being
+visible.
 
 </details>
 
