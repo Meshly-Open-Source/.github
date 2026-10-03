@@ -65,18 +65,22 @@ consideration and allocation all depend on the whole contract.
 | **CRM** | Salesforce, HubSpot, Microsoft Dynamics 365 |
 | **Accounting / ERP** | Xero, QuickBooks, NetSuite |
 | **Banking** | Revolut |
-| **Payments** | Revolut; Stripe and others *coming soon* |
+| **Payments** | Revolut; Stripe and others *on request* |
 | **Documents & e-signature** | DocuSign |
 | **Files** | PDF, CSV, and whatever shape your vendor invented |
-| **Warehouses** | Google BigQuery. Snowflake secure data sharing and Databricks Delta Sharing *coming soon* |
+| **Warehouses** | Google BigQuery; Snowflake secure data sharing and Databricks Delta Sharing *on request* |
 | **MCP (agents)** | Claude Code, claude.ai, ChatGPT web UI. Single accounts through team and enterprise |
 | **Custom** | Internal databases, file drops, in-house APIs |
 
 **You do not need a warehouse, or any of these systems.** If your data lives in
 spreadsheets and PDF exports, that is a supported setup, not a lesser one.
 
-Depth varies by connector. This list reflects what is built, not a roadmap;
-anything marked *coming soon* is not available yet.
+**If your system is not listed, we build the connector.** That is the job, not
+a favour. Items marked *on request* are not built yet — ask, and they get
+scheduled against a real customer rather than a roadmap.
+
+Depth varies by connector. Everything not marked *on request* is built and in
+use today.
 
 </details>
 
