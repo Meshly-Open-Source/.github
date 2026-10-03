@@ -13,6 +13,14 @@ You get **the benefits of a virtual data engineering team**: the integration
 work, the pipelines, the reconciliation logic and the audit evidence, without
 hiring for any of it.
 
+[![Meshly in Times Square](https://img.youtube.com/vi/Jcas-r2eITQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=Jcas-r2eITQ)
+
+*Meshly in Times Square*
+
+## How Meshly works
+
+**[See how it works →](https://www.meshly.ai/#how-it-works)**
+
 Meshly understands your vendors' native file formats and APIs, and keeping that
 current is part of the service. When a vendor changes an export or an API, that
 is our problem; when a vendor adds new capabilities, you get them without doing
@@ -70,7 +78,7 @@ consideration and allocation all depend on the whole contract.
 | **Files** | PDF, CSV, and whatever shape your vendor invented |
 | **Warehouses** | Google BigQuery; Snowflake secure data sharing and Databricks Delta Sharing *on request* |
 | **MCP (agents)** | Claude Code, claude.ai, ChatGPT web UI. Single accounts through team and enterprise |
-| **Custom** | Internal databases, file drops, in-house APIs |
+| **Custom** | Internal databases, file drops, in-house APIs. We work with customers whose core systems are custom-built |
 
 **You do not need a warehouse, or any of these systems.** If your data lives in
 spreadsheets and PDF exports, that is a supported setup, not a lesser one.
@@ -160,6 +168,15 @@ close done in spreadsheets. Meshly reads the files you already produce.
 </details>
 
 <details>
+<summary>🧍 <strong>Solopreneurs</strong></summary>
+
+You have got a bunch of systems, and you have to log in and check them every
+day. Meshly can automate routine accounting tasks and create an early warning
+system — the equivalent of smoke detectors for your digital systems.
+
+</details>
+
+<details>
 <summary>🏭 <strong>Manufacturing</strong></summary>
 
 Parts, orders and shipments tracked across an ERP, a WMS and whatever the
@@ -214,15 +231,7 @@ not a new team.
 
 ---
 
-# The open-source side — this GitHub organization
-
-Everything above is the commercial product. Everything below is what we
-publish, and the two are not the same thing.
-
-This organisation holds pieces that are generally useful to other people.
-It is a short list, and it is infrastructure we needed ourselves.
-
-**The product is not open source.**
+# Meshly Labs Open Source
 
 | Repository | What it is |
 |---|---|
